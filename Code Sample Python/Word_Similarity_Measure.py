@@ -2,6 +2,7 @@ import  io
 import numpy as np
 from scipy import spatial
 rs=[]
+
 for i in dataset:
     s=i.split()
     u1 = s[0].strip() # word 1
